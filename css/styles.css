@@ -55,9 +55,7 @@ body {
 /*колір ховерy #2196F3 rgba(33, 150, 243, 1)*/
 .page-header {
   background-color: var(--primary-bt-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
-  outline: 1px solid #ececec;
+  border-bottom: 1px solid var(--border);
 }
 .header-nav {
   display: flex;
