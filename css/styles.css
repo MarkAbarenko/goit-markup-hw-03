@@ -362,7 +362,7 @@ margin-right: 30px;
 .portfolio-elements .list {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 8px;
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -370,12 +370,14 @@ margin-right: 30px;
 .portfolio-list .link {
   text-decoration: none;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   flex-basis: calc(100% / 4 - 30px);
-}
+  list-style: none;
+  }
 .description {
   padding-left: 24px;
   padding-right: 24px;
@@ -385,6 +387,7 @@ margin-right: 30px;
   border-right: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }
+
 .button-portf {
   border-radius: 4px;
   padding: 6px 25px;
